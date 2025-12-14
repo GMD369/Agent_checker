@@ -20,3 +20,6 @@ def is_non_empty_string(value):
 # list checker
 def is_list(value):
     return isinstance(value, list)
+# list non-empty checker
+def is_non_empty_list(value):
+    return is_list(value) and len(value) > 0
