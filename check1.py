@@ -17,3 +17,6 @@ def is_positive_number(value):
 # string non-empty checker
 def is_non_empty_string(value):
     return is_string(value) and len(value) > 0
+# list checker
+def is_list(value):
+    return isinstance(value, list)
