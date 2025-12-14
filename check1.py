@@ -16,3 +16,7 @@ def is_positive_number(value):
 # negative number checker
 def is_negative_number(value):
     return is_numeric(value) and value < 0
+
+# non-empty string checker
+def is_non_empty_string(value):
+    return is_string(value) and len(value) > 0
