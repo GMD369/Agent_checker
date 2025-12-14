@@ -20,3 +20,7 @@ def is_negative_number(value):
 # non-empty string checker
 def is_non_empty_string(value):
     return is_string(value) and len(value) > 0
+
+# alphabetic string checker
+def is_alphabetic_string(value):
+    return is_string(value) and value.isalpha()
