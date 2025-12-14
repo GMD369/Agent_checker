@@ -22,4 +22,8 @@ def is_list(value):
     return isinstance(value, list)
 # list non-empty checker
 def is_non_empty_list(value):
-    return is_list(value) and len(value) > 0
+    return is_list(value) and len(value) > 
+
+# dictionary checker
+def is_dict(value):
+    return isinstance(value, dict)
