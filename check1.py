@@ -20,3 +20,7 @@ def is_negative_number(value):
 
 def is_negativesssss_number(value):
     return is_numeric(value) and value < 0
+
+def is_negativesrqrerewrsss_number(value):
+    return is_numeric(value) and value < 0
+
