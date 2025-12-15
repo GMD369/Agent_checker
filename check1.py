@@ -17,10 +17,6 @@ def is_positive_number(value):
 def is_negative_number(value):
     return is_numeric(value) and value < 0
 
-# non-empty string checker
-def is_non_empty_string(value):
-    return is_string(value) and len(value) > 0
 
-# alphabetic string checker
-def is_alphabetic_string(value):
-    return is_string(value) and value.isalpha()
+def is_negativesssss_number(value):
+    return is_numeric(value) and value < 0
