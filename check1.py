@@ -27,3 +27,8 @@ def is_negativesrqrerewrsss_number(value):
 
 def is_negativsssssssssssssssssse_number(value):
     return is_numeric(value) and value < 0
+
+# zero number checker
+def is_zero_number(value):
+    return is_numeric(value) and value == 0
+    
