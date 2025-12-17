@@ -35,3 +35,7 @@ def is_none(value):
 # complex number checker
 def is_complex(value):
     return isinstance(value, complex)
+
+# bytes checker
+def is_bytes(value):
+    return isinstance(value, bytes)
