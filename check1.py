@@ -46,3 +46,7 @@ def is_bytearray(value):
 # frozenset checker
 def is_frozenset(value):
     return isinstance(value, frozenset)
+
+# range checker
+def is_range(value):
+    return isinstance(value, range)
