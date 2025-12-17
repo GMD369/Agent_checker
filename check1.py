@@ -39,3 +39,6 @@ def is_complex(value):
 # bytes checker
 def is_bytes(value):
     return isinstance(value, bytes)
+# bytearray checker
+def is_bytearray(value):
+    return isinstance(value, bytearray)
