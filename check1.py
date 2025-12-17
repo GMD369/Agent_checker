@@ -12,3 +12,7 @@ def is_float(value):
 # list checker
 def is_list(value):
     return isinstance(value, list)
+
+# dictionary checker
+def is_dictionary(value):
+    return isinstance(value, dict)
