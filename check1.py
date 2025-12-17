@@ -39,3 +39,7 @@ def is_non_zero_number(value):
 # check string is alphabetic
 def is_alphabetic_string(value):
     return is_string(value) and value.isalpha()
+
+
+def is_alphabetic_sdfgsdfgsdfg_string(value):
+    return is_string(value) and value.isalpha()
