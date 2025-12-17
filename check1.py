@@ -24,3 +24,7 @@ def is_boolean(value):
 # tuple checker
 def is_tuple(value):
     return isinstance(value, tuple)
+
+# set checker
+def is_set(value):
+    return isinstance(value, set)
