@@ -31,4 +31,7 @@ def is_negativsssssssssssssssssse_number(value):
 # zero number checker
 def is_zero_number(value):
     return is_numeric(value) and value == 0
-    
+
+# non-zero number checker
+def is_non_zero_number(value):
+    return is_numeric(value) and value != 0
