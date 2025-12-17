@@ -28,3 +28,7 @@ def is_tuple(value):
 # set checker
 def is_set(value):
     return isinstance(value, set)
+
+# none checker
+def is_none(value):
+    return value is None
