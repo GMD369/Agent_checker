@@ -16,3 +16,7 @@ def is_list(value):
 # dictionary checker
 def is_dictionary(value):
     return isinstance(value, dict)
+
+# boolean checker
+def is_boolean(value):
+    return isinstance(value, bool)
