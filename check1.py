@@ -32,3 +32,6 @@ def is_set(value):
 # none checker
 def is_none(value):
     return value is None
+# complex number checker
+def is_complex(value):
+    return isinstance(value, complex)
