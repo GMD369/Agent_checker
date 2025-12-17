@@ -20,3 +20,7 @@ def is_dictionary(value):
 # boolean checker
 def is_boolean(value):
     return isinstance(value, bool)
+
+# tuple checker
+def is_tuple(value):
+    return isinstance(value, tuple)
