@@ -8,3 +8,7 @@ def is_integer(value):
 # float checker
 def is_float(value):
     return isinstance(value, float)
+
+# list checker
+def is_list(value):
+    return isinstance(value, list)
