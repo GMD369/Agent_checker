@@ -35,3 +35,7 @@ def is_zero_number(value):
 # non-zero number checker
 def is_non_zero_number(value):
     return is_numeric(value) and value != 0
+
+# check string is alphabetic
+def is_alphabetic_string(value):
+    return is_string(value) and value.isalpha()
