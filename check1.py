@@ -2,37 +2,9 @@
 def is_string(value):
     return isinstance(value, str)
 
-# string length checker
-def is_string_length(value, length):
-    return is_string(value) and len(value) == length
-
-# numeric checker
-def is_numeric(value):
-    return isinstance(value, (int, float))
-
-# positive number checker
-def is_positive_number(value):
-    return is_numeric(value) and value > 0
-# negative number checker
-def is_negative_number(value):
-    return is_numeric(value) and value < 0
-
-
-def is_negativesssss_number(value):
-    return is_numeric(value) and value < 0
-
-def is_negativesrqrerewrsss_number(value):
-    return is_numeric(value) and value < 0
-
-
-def is_negativsssssssssssssssssse_number(value):
-    return is_numeric(value) and value < 0
-
-# zero number checker
-def is_zero_number(value):
-    return is_numeric(value) and value == 0
-
-
-
-def is_alphabetic_string(value):
-    return is_string(value) and value.isalpha()
+# integer checker
+def is_integer(value):
+    return isinstance(value, int)
+# float checker
+def is_float(value):
+    return isinstance(value, float)
