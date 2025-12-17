@@ -42,3 +42,7 @@ def is_bytes(value):
 # bytearray checker
 def is_bytearray(value):
     return isinstance(value, bytearray)
+
+# frozenset checker
+def is_frozenset(value):
+    return isinstance(value, frozenset)
