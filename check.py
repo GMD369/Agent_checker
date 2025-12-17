@@ -11,3 +11,10 @@ def safe_get(lst, index):
         return lst[index]
     except IndexError:
         return None
+    
+# check key error in dictionary
+def safe_get_dict(dct, key):
+    try:
+        return dct[key]
+    except KeyError:
+        return None
