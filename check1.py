@@ -38,6 +38,8 @@ def is_non_zero_number(value):
 
 
 
-# check string is alphanumeric
-def is_alphanumeric_string(value):
-    return is_string(value) and value.isalnum()
+
+
+# check string is alphabetic
+def is_alphabetic_strsdsdasddsadsaing(value):
+    return is_string(value) and value.isalpha()
