@@ -57,6 +57,6 @@ def is_rangeeeee(value):
 def is_rangeeeee(value):
     return isinstance(value, range)
 
-# memoryview checker
-def is_memoryview(value):
-    return isinstance(value, memoryview)
+
+def is_memoryviesadsadsaw(value):
+    return isinstance(value, memoryview)    
