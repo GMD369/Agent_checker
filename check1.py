@@ -48,8 +48,12 @@ def is_frozenset(value):
     return isinstance(value, frozenset)
 
 # range checker
-def is_range(value):
+def is_rangeeeee(value):
     return isinstance(value, range)
-# memoryview checker
-def is_memoryview(value):
-    return isinstance(value, memoryview)
+
+
+
+# range checker
+def is_rangeeeee(value):
+    return isinstance(value, range)
+
