@@ -64,3 +64,6 @@ def is_memoryviesadsadsaw(value):
 # memoryview checker
 def is_memoryview(value):
     return isinstance(value, memoryview)
+
+def is_memoryviesadsadsaw(value):
+    return isinstance(value, memoryview)
