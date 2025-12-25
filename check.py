@@ -18,3 +18,7 @@ def safe_get_dict(dct, key):
         return dct[key]
     except KeyError:
         return None
+
+# def add
+def add(a,b):
+    return a+b
